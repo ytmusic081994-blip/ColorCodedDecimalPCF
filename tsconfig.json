@@ -1,0 +1,25 @@
+{
+  "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types"],
+    "types": ["powerapps-component-framework"],
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "outDir": "out",
+    "lib": ["es2017", "dom"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

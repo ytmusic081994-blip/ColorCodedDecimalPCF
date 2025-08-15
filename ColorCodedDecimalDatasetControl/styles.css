@@ -1,0 +1,35 @@
+.color-coded-grid {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+.color-coded-grid th {
+    background-color: #6264A7;
+    color: white;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.color-coded-grid td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #F3F2F1;
+}
+
+.low-value {
+    background-color: #FCE4E4;
+}
+
+.medium-value {
+    background-color: #FFF4E5;
+}
+
+.high-value {
+    background-color: #E6F6E6;
+}
+
+.no-data {
+    padding: 16px;
+    text-align: center;
+    color: #666;
+}

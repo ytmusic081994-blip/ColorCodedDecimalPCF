@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "columns": [
+      {"name": "productName", "displayName": "Product", "dataType": "String"},
+      {"name": "score1", "displayName": "Quality", "dataType": "Decimal"},
+      {"name": "score2", "displayName": "Performance", "dataType": "Decimal"},
+      {"name": "score3", "displayName": "Rating", "dataType": "Decimal"},
+      {"name": "score4", "displayName": "Inventory", "dataType": "Decimal"}
+    ],
+    "records": {
+      "rec1": {
+        "productName": "Widget A",
+        "score1": 15.3,
+        "score2": 30.7,
+        "score3": 80.2,
+        "score4": 50.5
+      }
+    },
+    "sortedRecordIds": ["rec1"]
+  }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control 
+    namespace="ColorCodedControls" 
+    constructor="ColorCodedDecimalGrid" 
+    version="1.0.0" 
+    display-name-key="Color Coded Decimal Grid" 
+    description-key="Grid control that applies background colors to decimal columns" 
+    control-type="standard">
+
+    <!-- Dataset property - Corrected of-type -->
+    <property 
+      name="dataset" 
+      display-name-key="Dataset" 
+      description-key="The dataset to display" 
+      of-type="Multiple" 
+      usage="bound" 
+      required="true" />
+
+    <!-- Column selection property -->
+    <property 
+      name="columnsToColor" 
+      display-name-key="Columns to Color" 
+      description-key="Comma-separated list of decimal columns to color" 
+      of-type="SingleLine.Text" 
+      usage="input" 
+      required="true" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="styles.css" order="1"/>
+    </resources>
+  </control>
+</manifest>
